@@ -1,11 +1,11 @@
 package br.ufrn.imd;
 
 public class Musician extends Person {
-    protected boolean playClassicalMusic;
-    protected boolean canImprovise;
-    protected boolean canCompose;
+    public boolean playClassicalMusic;
+    public boolean canImprovise;
+    public boolean canCompose;
 
-    protected Musician() {}
+    public Musician() {}
 
-    protected void play() {}
+    public void play() {}
 }

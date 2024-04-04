@@ -1,12 +1,16 @@
 package br.ufrn.imd;
 
 public class Person {
-    protected String name;
-    protected String hometown;
+    public String name;
+    public String hometown;
 
-    protected Person() {}
+    public Person() {}
 
-    protected String hometown() {}
+    public String hometown() {
+        return hometown;
+    }
 
-    protected String name() {}
+    public String name() {
+        return name;
+    }
 }

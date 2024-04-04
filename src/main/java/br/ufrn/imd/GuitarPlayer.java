@@ -1,11 +1,10 @@
 package br.ufrn.imd;
 
-public class GuitarPlayer {
-    protected int howManyYears;
-    protected boolean playEletronicGuitar;
-    protected boolean playAcousticGuitar;
+public class GuitarPlayer extends Musician {
+    public int howManyYears;
+    public boolean playEletronicGuitar;
+    public boolean playAcousticGuitar;
 
-    protected GuitarPlayer() {}
-
-    protected void playGuitar() {}
+    public GuitarPlayer() {}
+    public void playGuitar() {}
 }
